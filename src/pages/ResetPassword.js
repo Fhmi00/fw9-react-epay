@@ -7,9 +7,9 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup'
 import '../assets/css/style.css'
 import Doublephone from '../assets/images/doublephone.png'
-import { FcApproval } from "react-icons/fc";
+import { FiMail, FiLock, FiUser } from "react-icons/fi";
 
-function CreatePinSuccess() {
+function ResetPassword() {
     return (
         <>
         <Container>
@@ -31,9 +31,22 @@ function CreatePinSuccess() {
                     </div>
                 </Col>
                 <Col md={5} className="login-right-side d-flex flex-column">
-                    <FcApproval className="checklist"/>
-                    <span className="login-top-text">Secure Your Account, Your Wallet, and Your Data With 6 Digits PIN That You Created Yourself.</span>
-                    <p className="login-second-text">Create 6 digits pin to secure all your money and your data in Zwallet app. Keep it secret and don't tell anyone about your Zwallet account password and the PIN.</p>                    
+                    <span className="login-top-text">Did You Forgot Your Password? Don't Worry, You Can Reset Your Password In a Minutes.</span>
+                    <p className="login-second-text">To reset your password, you must type your e-mail and we will send a link to your email and you will be directed to the reset password screens.</p>
+                    
+                    <InputGroup className="mb-5 login-input-group">
+                        <InputGroup.Text id="basic-addon1" className="login-logo"><FiMail/></InputGroup.Text>
+                            <Form.Control className='login-input'
+                                placeholder="Enter your e-mail"
+                                aria-label="Username"
+                                aria-describedby="basic-addon1"
+                            />
+                    </InputGroup>
+                    
+                    <div className="d-grid">
+                        <Button className="login-btn">Confirm</Button>{' '}
+                    </div>
+                    
                 </Col>
             </Row>
         </Container>
@@ -41,4 +54,4 @@ function CreatePinSuccess() {
     )
 }
 
-export default CreatePinSuccess
+export default ResetPassword

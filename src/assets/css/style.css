@@ -425,7 +425,6 @@ color: #EFEFEF;
     font-size: 24px;
     line-height: 33px;
     color: #3A3D42;
-    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -442,7 +441,7 @@ margin-bottom: 50px;
     max-width: 500px;
     padding-left: 50px;
     flex-direction: column;
-
+    padding-top: 100px;
 }
 
 .login-input-group{
@@ -507,4 +506,10 @@ color: rgba(255, 255, 255, 0.8);
 
 .createpin-input-inside{
     font-size: 30px;
+}
+
+.checklist{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
 }
