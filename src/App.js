@@ -6,6 +6,7 @@ import CreatePin from './pages/CreatePin'
 import CreatePinSuccess from './pages/CreatePinSuccess'
 import ResetPassword from './pages/ResetPassword'
 import ResetPasswordSuccess from './pages/ResetPasswordSuccess'
+import Home from './pages/Home'
 import { Routes, Route, BrowserRouter} from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='createpinsuccess' element={<CreatePinSuccess/>}></Route>
         <Route path='resetpassword' element={<ResetPassword/>}></Route>
         <Route path='resetpasswordsuccess' element={<ResetPasswordSuccess/>}></Route>
+        <Route path='home' element={<Home/>}></Route>
       </Routes>
     </BrowserRouter>
   )
