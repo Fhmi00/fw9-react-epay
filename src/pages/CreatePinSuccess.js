@@ -12,7 +12,7 @@ import { FcApproval } from "react-icons/fc";
 function CreatePinSuccess() {
     return (
         <>
-        <Container>
+        <>
             <Row className='ll'>
                 <Col md={7} className='login-side-left'>
                     <div className="px-5 py-5">
@@ -36,7 +36,7 @@ function CreatePinSuccess() {
                     <p className="login-second-text">Create 6 digits pin to secure all your money and your data in Zwallet app. Keep it secret and don't tell anyone about your Zwallet account password and the PIN.</p>                    
                 </Col>
             </Row>
-        </Container>
+        </>
         </>
     )
 }

@@ -12,7 +12,7 @@ import { FiMail, FiLock, FiUser } from "react-icons/fi";
 function SignUp() {
     return (
         <>
-        <Container>
+        <>
             <Row className='ll'>
                 <Col md={7} className='login-side-left'>
                     <div className="px-5 py-5">
@@ -65,7 +65,7 @@ function SignUp() {
                     </div>
                 </Col>
             </Row>
-        </Container>
+        </>
         </>
     )
 }

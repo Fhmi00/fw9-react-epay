@@ -12,7 +12,7 @@ import { FiLock } from "react-icons/fi";
 function ResetPasswordSuccess() {
     return (
         <>
-        <Container>
+        <>
             <Row className='ll'>
                 <Col md={7} className='login-side-left'>
                     <div className="px-5 py-5">
@@ -57,7 +57,7 @@ function ResetPasswordSuccess() {
                     
                 </Col>
             </Row>
-        </Container>
+        </>
         </>
     )
 }

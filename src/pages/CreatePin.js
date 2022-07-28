@@ -7,12 +7,11 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup'
 import '../assets/css/style.css'
 import Doublephone from '../assets/images/doublephone.png'
-import { FiMail, FiLock, FiUser } from "react-icons/fi";
 
 function CreatePin() {
     return (
         <>
-        <Container>
+        <>
             <Row className='ll'>
                 <Col md={7} className='login-side-left'>
                     <div className="px-5 py-5">
@@ -60,7 +59,7 @@ function CreatePin() {
                     </div>
                 </Col>
             </Row>
-        </Container>
+        </>
         </>
     )
 }
